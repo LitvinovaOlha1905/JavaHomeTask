@@ -1,8 +1,8 @@
 package de.telran.lesson7.calculator;
 
-import lesson7.calculator.service.Calculator;
-import lesson7.calculator.userInretface.UserInput;
-import lesson7.calculator.userInretface.UserOutput;
+import de.telran.lesson7.calculator.service.Calculator;
+import de.telran.lesson7.calculator.userInretface.UserInput;
+import de.telran.lesson7.calculator.userInretface.UserOutput;
 
 public class CalculatorApp {
     public static void main(String[] args) {
