@@ -13,11 +13,13 @@ public class ArrayTaskSecond {
     */
 
     public static void main(String[] args) {
+        // Создаем рандом
         Random randomArr = new Random();
 
         int arraySize = 5;
         boolean isIncreasing = true;
 
+        // Создаем массив
         int[] intArray = new int[arraySize];
 
         System.out.println("Массив: ");
@@ -28,6 +30,7 @@ public class ArrayTaskSecond {
         System.out.println();
         System.out.print(Arrays.toString(intArray));
 
+        // Используем цикл для определения последовательности
         for (int i = 1; i < intArray.length; i++) {
            if(intArray[i] <= intArray[i - 1]){
                isIncreasing = false;
@@ -35,6 +38,7 @@ public class ArrayTaskSecond {
            }
         }
 
+        //выводим результат на экран
         System.out.println();
         if (isIncreasing){
             System.out.println("Массив является строго возрастающей последовательностью");
